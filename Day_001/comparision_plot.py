@@ -18,9 +18,8 @@ Hit_movies = [
 ]
 
 years = [2018, 2019, 2020, 2021, 2022, 2023]
-
 Hit_revenue = [724, 867, 567, 625, 404, 664]  # in $M
-plt.plot(years, Hit_revenue, marker="o", label="Hit Movies")# Plot Hit movie revenue
+plt.plot(years, Hit_revenue, label="Hit Movies")# Plot Hit movie revenue
 
 # Non-Hit movies
 NonHit_movies = [
@@ -33,7 +32,7 @@ NonHit_movies = [
 ]
 
 NonHit_revenue = [120, 198, 157, 90, 72, 142]  # in $M
-plt.plot(years, NonHit_revenue, marker="o", label="Non-Hit Movies")# Plot Non-Hit movie revenue
+plt.plot(years, NonHit_revenue, label="Non-Hit Movies")# Plot Non-Hit movie revenue
 plt.title("Hit Movie Revenue VS Non-Hit Movie Revenue")# Title
 
 plt.xlabel("Years")# X and Y axis

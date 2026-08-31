@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+clsimport matplotlib.pyplot as plt
 # data
 Hit_movies = [
     "KGF",
