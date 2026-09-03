@@ -1,12 +1,13 @@
 import matplotlib.pyplot as plt
 
-hit_movies = ["RRR", "chhaava", "Dhurandar", "KGF", "12th Fail", "Super 30", "MS Dhoni"]
-revenue = [350, 270, 690, 280, 312, 456, 400]
+x = [1, 2, 3, 4, 5]
 
-plt.plot(hit_movies, revenue)
-plt.xlabel("Hit Movies")
-plt.ylabel("Revenue (in $M)")
-plt.title("Movie Revenue Over the Years")
+plt.plot(x, [10, 20, 30, 40, 50], label="Sales")
+plt.plot(x, [5, 15, 25, 35, 45], label="Profit")
+
+plt.xlabel("Months")
+plt.ylabel("Amount")
+plt.title("Sales and Profit")
 
 plt.legend()
 plt.show()
