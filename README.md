@@ -98,21 +98,17 @@ The 100 questions cover topics such as:
 Matplotlib/
 │
 ├── Que_001/
-│   ├── Graph_plot.py
-│   └── comparision_plot.py
+│   └── line_plot.py
 │
 ├── Que_002/
-│   ├── marker.py
-│   └── null.py
+│   └── costmize_line_plot.py
 │
 ├── Que_003/
-│   ├── null.py
-│   └── null.py
+│   └── multiple_line.py
 │
 ├── ...
 │
 ├── Que_100/
-│   ├── null.py
-│   └── null.py
+│   └── Abhi_time_hai_ruko.py
 │
 └── README.md
