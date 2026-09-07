@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+cities = ["New Delhi", "Mumbai", "Bengaluru", "Hyderabad", "Chennai"]
+population = [20, 21, 12, 10, 8]
+
+plt.bar(cities, population)
+
+plt.xticks(rotation=30)
+
+plt.tight_layout()
+plt.show()
